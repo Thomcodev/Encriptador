@@ -1,0 +1,71 @@
+body {
+    font-family: 'Abhaya Libre', serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/binario2.jpg);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo-header img {
+    width: 15%;
+    height: auto;
+    margin-left: 25px;
+}
+
+.cajas {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.encriptar,
+.mensaje-encriptado {
+    flex: 1;
+    margin: 0 5px;
+}
+
+textarea {
+    width: 90%;
+    height: 300px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+textarea:focus {
+    border-color: #f5ba90;
+    box-shadow: 0 0 15px #f5ba90;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-icons a {
+    margin: 0 10px;
+}
+
+.footer-icons a:hover {
+    color: #007bff;
+}
+
+.footer-icons .fab {
+    color: white;
+}

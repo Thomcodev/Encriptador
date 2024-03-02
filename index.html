@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/proteger.png" type="image/x-icon">
+    <title>Encriptador-ALURA</title>
+</head>
+<body>
+    <header>
+        <div class="logo-header">
+            <img src="img/proteger.png" alt="Logotipo del encriptador">
+        </div>
+        
+    </header>
+    
+    <section id="seccion-encriptar" class="cajas">
+        <div class="encriptar">
+            <label>Ingrese el texto:</label>
+            <textarea name="texto" class="texto" id="textoNormal" cols="30" rows="10" placeholder="Ingresa el texto aquí" oninput="actualizarTexto()"></textarea>
+            <button class="btn-limpiar" onclick="limpiarTexto()"><i class="fas fa-eraser"></i></button>
+        </div>
+
+        <div class="mensaje-encriptado" id="mensaje-encriptado">
+            <label for="textoEncriptado">Resultado:</label>
+            <textarea name="texto" class="texto" id="textoEncriptado" placeholder="Esperando resultado..." oninput="actualizarTexto()"></textarea>
+            <button class="btn-copiar" onclick="copiarTexto()"><i class="far fa-copy"></i></button>
+        </div>
+    </section>
+   
+   
+
+<footer>
+    <div class="footer-icons">
+        <a href="https://github.com/tuusuario" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/tuusuario" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+      <div class="copyright">
+        <p>&copy; 2024 Todos los derechos reservados</p>
+      </div>
+</footer>
+  
+
+    <script src="script.js"></script>
+</body>
+</html>
+
